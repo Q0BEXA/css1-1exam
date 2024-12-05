@@ -1,88 +1,94 @@
-h1 {
-    width: 100%;
-    height: 84px;
-    margin: 0 auto;
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+#h1 {
+    margin-top: 24px;
+    text-align: center;
+    font-size: 64px;
+    font-family: lato;
+    font-weight: 800;
+    color: rgba(142, 38, 192, 1);
 }
 
-#sale {
-    font-family: JetBrains Mono;
-    font-size: 64px;
-    font-weight: 800;
-    text-align: center;
-    color: purple;
+#cproperty {
+    width: 565px;
+    height: Hug(86px);
+    margin-left: 32px;
+    margin-top: 29px;
 }
 
 #chance {
-    width: 446px;
-    height: 38px;
-    gap: 0px;
-    opacity: 0px;
-    width: Fixed (565px)px;
-    height: Hug (86px)px;
-    top: 137px;
-    left: 32px;
-    padding: 24px 40px 24px 40px;
-    gap: 10px;
-    background-color: #ffe8e8;
-    font-family: Lato;
     font-size: 32px;
     font-weight: 400;
-    line-height: 38.4px;
-    text-align: left;
-    color: red;
+    padding-top: 24px;
+    padding-right: 40px;
+    padding-bottom: 24px;
+    padding-left: 40px;
+    gap: 10px;
+    background-color: rgba(255, 232, 232, 1);
+    font-family: Lato;
+    color: rgba(255, 0, 0, 1);
+}
+
+#eproperty {
+    width: 1023px;
+    height: Hug(144px);
+    top: 255px;
+    left: 32px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 32px;
+    margin-left: 32px;
 }
 
 #exclusive {
-    width: 1023px;
-    height: 144px;
-    margin: left;
-    opacity: 0px;
-    width: Fixed (1,023px)px;
-    height: Hug (144px)px;
-    padding: 24px 40px 24px 40px;
-    gap: 10px;
-    border: 0px 0px 0px 0px;
-    opacity: 0px;
-    border-right: 6px solid #0055FF;
-    border-left: 4px solid #C11574;
-    border-bottom: 2px solid #7F56D9;
-    border-top: 2px solid #00C76E;
     width: 943px;
     height: 96px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Lato;
     font-size: 40px;
     font-weight: 400;
-    line-height: 48px;
+    font-family: Lato;
     text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #85647B;
+    color: rgba(133, 100, 123, 1);
+    padding: 24px 40px;
+    gap: 10px;
+    border-top: 2px solid rgba(0, 199, 110, 1);
+    border-right: 6px solid rgba(0, 85, 255, 1);
+    border-bottom: 2px solid rgba(127, 86, 217, 1);
+    border-left: 4px solid rgba(193, 21, 116, 1);
+}
+
+#dproperty {
+    width: Fixed (1, 023px)px;
+    height: Hug (133px)px;
+    top: 443px;
+    left: 32px;
+    gap: 10px;
+    opacity: 0px;
+    margin-left: 32px;
+    margin-top: 68px;
+
 }
 
 #discount {
-    width: Fixed (1,023px)px;
-    height: Hug (133px)px;
-    margin: left;
-    padding: 24px 40px 24px 40px;
-    gap: 10px;
-    opacity: 0px;
-    background: #FFE8E8;
-    width: 943px;
-    height: 85px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Lato;
+    text-align: center;
     font-size: 32px;
     font-weight: 400;
+    font-family: Lato;
+    width: 943px;
+    height: 85px;
+    padding: 24px 40px 24px 40px;
+    background-color: rgba(255, 232, 232, 1);
+    color: #414651;
+    font-family: Lato;
     line-height: 38.4px;
-    text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+
 }
 
 #span {
+    color: #ff4405;
     font-family: Lato;
     font-size: 40px;
     font-weight: 400;
@@ -92,19 +98,18 @@ h1 {
     text-decoration-style: solid;
     text-underline-position: from-font;
     text-decoration-skip-ink: auto;
-    color: red;
+}
+
+#oproperty {
+    width: 989px;
+    height: 38px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 36px;
+    margin-left: 32px;
 }
 
 #opportunity {
-    width: Fixed (1,069px)px;
-    height: Hug (86px)px;
-    margin: left;
-    padding: 24px 40px 24px 40px;
-    gap: 10px;
-    border: 2px 0px 0px 0px;
-    border: 2px solid #3538CD;
-    width: 989px;
-    height: 38px;
     font-family: Lato;
     font-size: 32px;
     font-weight: 400;
@@ -112,11 +117,24 @@ h1 {
     text-align: right;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    color: #0064ce;
+    color: rgba(0, 100, 206, 1);
+    width: Fixed (1, 069px)px;
+    height: Hug (86px)px;
+    top: 612px;
+    left: 32px;
+    padding: 24px 40px 24px 40px;
+    gap: 10px;
+    border: 2px solid rgba(53, 56, 205, 1);
+    opacity: 0px;
 }
 
 #image {
     width: 556px;
     height: 347px;
-    margin: left;
+    top: 774px;
+    left: 32px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 16px;
+    margin-top: 76px;
 }
